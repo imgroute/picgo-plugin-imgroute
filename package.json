@@ -1,0 +1,31 @@
+{
+  "name": "picgo-plugin-imgroute",
+  "version": "1.0.2",
+  "description": "PicGo 上传插件 - ImgRoute 图床",
+  "main": "index.js",
+  "icon": "https://cn.imgroute1.com/i/x4l54vye41sy",
+  "gui": true,
+  "scripts": {},
+  "keywords": [
+    "picgo",
+    "picgo-gui-plugin",
+    "picgo-plugin",
+    "imgroute",
+    "image-hosting"
+  ],
+  "author": "imgroute",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imgroute/picgo-plugin-imgroute"
+  },
+  "engines": {
+    "picgo": ">=2.0.0"
+  },
+  "picgo": {
+    "uploader": "imgroute"
+  },
+  "dependencies": {
+    "image-size": "2.0.2"
+  }
+}
